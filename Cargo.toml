@@ -2,4 +2,10 @@
 name = "myprog"
 version = "0.1.0"
 
+[[bin]]
+name = "src/myprog.rs"
+
+
+
+
 
