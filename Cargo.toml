@@ -3,7 +3,8 @@ name = "myprogram"
 version = "0.1.0"
 
 [[bin]]
-name = "src/myprog.rs"
+name = "myprog"
+path =  "src/myprog.rs"
 
 
 
