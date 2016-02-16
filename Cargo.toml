@@ -1,3 +1,5 @@
 [package] 
 name = "myprog"
+version = "0.1.0"
+
 
