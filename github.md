@@ -10,6 +10,9 @@ Welcome to the myprog wiki!
 
 [git-guide ](http://rogerdudler.github.io/git-guide/)
 
+[git-guide deutsch](https://rogerdudler.github.io/git-guide/index.de.html)
+
+[wiki git](https://de.wikipedia.org/wiki/Git)
 
 
 #   [GitHub] (https://github.com)
