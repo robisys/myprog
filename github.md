@@ -6,6 +6,10 @@ Welcome to the myprog wiki!
 [Crates](https://crates.io)  
 
 `code einfuegen`
+#  GitHub
+
+[git-guide ](http://rogerdudler.github.io/git-guide/)
+
 
 
 #   [GitHub] (https://github.com)
