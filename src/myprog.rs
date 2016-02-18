@@ -1,5 +1,7 @@
-
 //
+//
+use std::env;
+
 #[cfg(unix)]
 fn is_executable() {
    println!("is unix");
@@ -8,8 +10,14 @@ fn is_executable() {
 fn is_executable() {
    println!("is windows");
    }   
+   
+pub fn pargs() {
+    for (key,value) in env::vars_os() {
+    println!("{:?]: {:?}", key, value);
+    }
 
 fn main() {
+pargs();
 is_executable();
 println!("Hallo World");
 }
