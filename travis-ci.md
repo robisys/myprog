@@ -12,14 +12,14 @@
 Git #
 
 This should also work with services you can deploy to via git.
-`
+
 after_success:
   - eval "$(ssh-agent -s)" #start the ssh agent
   - chmod 600 .travis/deploy_key.pem # this key should have push access
   - ssh-add .travis/deploy_key.pem
   - git remote add deploy DEPLOY_REPO_URI_GOES_HERE
   - git push deploy
-`
+
 Script deployment
 
 If your deployment needs more customization than the after_success method allows, use a custom script.
