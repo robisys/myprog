@@ -8,7 +8,8 @@ script:
      - cargo test
      - cargo run
 
-  
+after_success:
+    "echo prozess success"   
 
 
      
