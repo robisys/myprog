@@ -15,7 +15,7 @@ pub fn pargs() {
     for (key,value) in env::vars_os() {
     println!("{:?}: {:?}", key, value);
     }
-
+}
 fn main() {
 pargs();
 is_executable();
