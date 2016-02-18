@@ -3,7 +3,7 @@
 
 [Travis robisys](https://travis-ci.org/robisys)
 
-[travis-lint ](https://docs.travis-ci.com/user/travis-lint/)
+[travis-lint ](https://docs.travis-ci.com/user/travis-lint/) [lint.travis-ci.org] (http://lint.travis-ci.org/)
 
 auf Grundlage von: [ www.matthias-zeis.com/archiv/magento-extensions-mit-travis-ci-testen](http://www.matthias-zeis.com/archiv/magento-extensions-mit-travis-ci-testen)
 
