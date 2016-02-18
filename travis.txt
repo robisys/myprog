@@ -15,3 +15,14 @@ after_success:
   - ssh-add .travis/deploy_key.pem
   - git remote add deploy DEPLOY_REPO_URI_GOES_HERE
   - git push deploy
+  
+  
+
+deploy:
+  provider: script
+  script: scripts/deploy.sh
+  on:
+  	branch: develop
+
+
+
