@@ -1,2 +1,2 @@
 echo "file "
-exit
+
