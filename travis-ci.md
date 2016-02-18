@@ -13,12 +13,14 @@ Git #
 
 This should also work with services you can deploy to via git.
 
+<code>
 after_success:
   - eval "$(ssh-agent -s)" #start the ssh agent
   - chmod 600 .travis/deploy_key.pem # this key should have push access
   - ssh-add .travis/deploy_key.pem
   - git remote add deploy DEPLOY_REPO_URI_GOES_HERE
   - git push deploy
+</code>
 
 Script deployment
 
@@ -26,11 +28,13 @@ If your deployment needs more customization than the after_success method allows
 
 The following example runs scripts/deploy.sh on the develop branch of your repository if the build is successful.
 
+<code>
 deploy:
   provider: script
   script: scripts/deploy.sh
   on:
   	branch: develop
+</code>
 
 script must be a scalar pointing to an executable file or command.
 
