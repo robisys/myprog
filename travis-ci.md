@@ -1,6 +1,5 @@
 # Travis-Ci
-[Travis-ci Start]  
-
+[Travis-ci Start Doc](https://docs.travis-ci.com/)
 
 auf Grundlage von: [ www.matthias-zeis.com/archiv/magento-extensions-mit-travis-ci-testen](http://www.matthias-zeis.com/archiv/magento-extensions-mit-travis-ci-testen)
 
@@ -192,4 +191,6 @@ Language-specific builds expose additional environment variables representing th
   
 
 [Status-anzeige ](https://docs.travis-ci.com/user/status-images/)
+
+[Notification Benachrichtigung](https://docs.travis-ci.com/user/notifications/)
 
