@@ -6,5 +6,7 @@ sudo: false
 script: 
      - cargo build
      - cargo test
+     - cargo run
+     
      
      
