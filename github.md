@@ -6,6 +6,13 @@ Welcome to the myprog wiki!
 [Crates](https://crates.io)  
 
 `code einfuegen`
+
+#  Travis
+
+  [Travis](https://travis-ci.org/robisys/myprog)
+  
+  [Travis-ci profile](https://travis-ci.org/profile/robisys)
+  
 #  GitHub
 
 [git-guide ](http://rogerdudler.github.io/git-guide/)
