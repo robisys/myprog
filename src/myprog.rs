@@ -13,7 +13,7 @@ fn is_executable() {
    
 pub fn pargs() {
     for (key,value) in env::vars_os() {
-    println!("{:?]: {:?}", key, value);
+    println!("{:?}: {:?}", key, value);
     }
 
 fn main() {
