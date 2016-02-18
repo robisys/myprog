@@ -15,7 +15,13 @@ after_success:
   - ssh-add .travis/deploy_key.pem
   - git remote add deploy DEPLOY_REPO_URI_GOES_HERE
   - git push deploy
-  
+ 
+ env:
+  global:
+    - "FTP_USER=user"
+    - "FTP_PASSWORD=password"
+after_success:
+    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://sitename.com/directory/myfile" 
   
 
 deploy:
