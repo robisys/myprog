@@ -13,6 +13,8 @@ Welcome to the myprog wiki!
   
   [Travis-ci profile](https://travis-ci.org/profile/robisys)
   
+  [.](https://api.travis-ci.org/robisys/myprog.svg)
+  
 #  GitHub
 
 [git-guide ](http://rogerdudler.github.io/git-guide/)
