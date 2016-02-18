@@ -16,11 +16,13 @@ pub fn pargs() {
     println!("{:?}: {:?}", key, value);
     }
 }
+
 fn main() {
-pargs();
+//pargs();
 is_executable();
 println!("Hallo World");
 }
+
 #[test]
 fn its_really_works() {
 }
