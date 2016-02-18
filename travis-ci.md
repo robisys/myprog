@@ -1,7 +1,10 @@
 # Travis-Ci
 [Travis-ci Start]  
 
-[Testen ](http://www.matthias-zeis.com/archiv/magento-extensions-mit-travis-ci-testen)
+
+auf Grundlage von: [ www.matthias-zeis.com/archiv/magento-extensions-mit-travis-ci-testen](http://www.matthias-zeis.com/archiv/magento-extensions-mit-travis-ci-testen)
+
+(kopiert am 18.02.2016 und danach angepasst)
 
 Travis CI als kostenlose Continuous-Integration-Plattform
 
