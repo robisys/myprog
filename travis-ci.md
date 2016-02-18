@@ -250,4 +250,5 @@ Language-specific builds expose additional environment variables representing th
     TRAVIS_RUST_VERSION
   
 
+[Status-anzeige ](https://docs.travis-ci.com/user/status-images/)
 
