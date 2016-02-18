@@ -14,6 +14,8 @@ Welcome to the myprog wiki!
 
 [wiki git](https://de.wikipedia.org/wiki/Git)
 
+* progit
+[progit](https://github.com/progit/progit/tree/master/de)
 
 #   [GitHub] (https://github.com)
 
