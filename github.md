@@ -15,7 +15,7 @@ Welcome to the myprog wiki!
   
   [myprog.svg] (https://api.travis-ci.org/robisys/myprog.svg)  
   
-  #  GitHub
+#  GitHub
 
 [git-guide ](http://rogerdudler.github.io/git-guide/)
 
