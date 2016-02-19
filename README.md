@@ -1,6 +1,6 @@
 # myprog
 
-first test with this
+first test with  github rust travis-ci
 
 examples for programming with rust
 
