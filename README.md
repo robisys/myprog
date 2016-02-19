@@ -16,8 +16,8 @@ Welcome to the myprog wiki!
 [rust-learning] (https://github.com/ctjhoa/rust-learning)  
 [Crates](https://crates.io)  
 
-`code einfuegen`
-'weitere Codezeilen'
+`code einfuegen hier und in den weiteren Zeilen`
+` weitere Codezeilen`
 
 
 
