@@ -9,7 +9,8 @@ script:
      - cargo run
 
 after_success:
-    - cargo doc
+    - cargo doc  --open
+    
     
 
 
