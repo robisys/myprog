@@ -3,6 +3,24 @@ rust:
      - stable
      - nightly
 sudo: false
+env:
+  global:
+   - "FTP_USER=user"
+   - "FTP_PASSWORD=password"
+script: 
+     - cargo build
+     - cargo test
+     - cargo run
+
+after_success:
+    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://sitename.com/directory/myfile "
+-------------------------------
+
+language: rust 
+rust:
+     - stable
+     - nightly
+sudo: false
 script: 
      - cargo build
      - cargo test
