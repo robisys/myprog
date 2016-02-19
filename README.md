@@ -4,7 +4,7 @@ first test with this
 
 examples for programming with rust
 
-[wiki] (https://github.com/robisys/myprog/wiki)    [Travis ](https://travis-ci.org/robisys)
+[wiki] (https://github.com/robisys/myprog/wiki)    [Travis ](https://travis-ci.org/robisys)  ![Travis] (https://travis-ci.org/#)
 
 [Rust](https://github.com/robisys/myprog/wiki/Rust)
 Welcome to the myprog wiki!
