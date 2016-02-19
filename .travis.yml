@@ -3,6 +3,10 @@ rust:
      - stable
      - nightly
 sudo: false
+env:
+  global:
+   - "FTP_USER=user"
+   - "FTP_PASSWORD=password"
 script: 
      - cargo build
      - cargo test
@@ -10,6 +14,7 @@ script:
 
 after_success:
     - cargo doc  
+    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://sitename.com
     
     
     
