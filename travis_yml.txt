@@ -29,7 +29,7 @@ deploy:
   script: scripts/deploy.sh
   on:
   	branch: develop
- --------neues Beispiel ------------
+ --------neues Beispiel cargo-master ------------
  
  language: rust
 sudo: false
