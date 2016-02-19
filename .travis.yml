@@ -13,4 +13,4 @@ script:
      - cargo run
 
 after_success:
-    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://sitename.com/directory/myfile "
+    "echo 'success' > target/test.txt "
