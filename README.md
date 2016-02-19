@@ -24,6 +24,6 @@ Welcome to the myprog wiki!
 
 *  curl
 
-(curl)(https://de.wikipedia.org/wiki/CURL)
+[curl](https://de.wikipedia.org/wiki/CURL)
 
 
