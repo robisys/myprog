@@ -1,5 +1,7 @@
 # myprog
 
+[![Build Status](https://secure.travis-ci.org/robisys/myprog.svg?branch=master)](https://travis-ci.org/robisys/myprog)
+
 first test with  github rust travis-ci
 
 examples for programming with rust
