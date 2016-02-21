@@ -27,4 +27,8 @@ Welcome to the myprog wiki!
 
 [curl](https://de.wikipedia.org/wiki/CURL)
 
+https://docs.travis-ci.com/  
+
+https://github.com/travis-ci/travis.rb
+
 
