@@ -12,5 +12,5 @@ fn parameterised_path_with_format() {
 fn fallthrough_with_no_match() {
 //with_path("/foo/bar", |res| {
 //        assert_eq!(res.status, StatusCode::NotFound);
-    })
+//})
 }
