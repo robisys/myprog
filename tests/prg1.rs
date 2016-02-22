@@ -1,3 +1,5 @@
+use util::*;
+
 #[test]
 fn parameterised_path_with_format() {
   //  with_path("/not_bar.xml", |res| {
