@@ -14,4 +14,4 @@ fn t(file: &str) {
 }
 
 #[test] fn non_macro() { t("hello_world") }
-#[test] fn _macro() { t("hello_world_macro") }
+// #[test] fn _macro() { t("hello_world_macro") }
