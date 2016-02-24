@@ -26,7 +26,7 @@ impl Drop for Bomb {
         }
     }
 }
-
+/*
 pub fn response_for_post(url: &str, body: &str) -> Response {
     Client::new()
            .post(url)
@@ -34,7 +34,7 @@ pub fn response_for_post(url: &str, body: &str) -> Response {
            .send()
            .unwrap()
 }
-
+*/
 pub fn response_for_method(method: Method, url: &str) -> Response {
     Client::new()
            .request(method, url)
