@@ -1,4 +1,7 @@
 @echo off
-cargo build
+
+rem cargo build
+
 cargo test
+
 pause
