@@ -10,7 +10,8 @@ path =  "src/myprog.rs"
 [dependencies]
 nickel = "*"
 #myprogs = {git = "https://github.com/robisys/myprogs.git"}
-
+rust-serialize = "0.3"
+lazy_static ="0.1"
 
 
 
