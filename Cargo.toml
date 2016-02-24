@@ -7,13 +7,16 @@ authors = ["robisys"]
 name = "myprog"
 path =  "src/myprog.rs"
 
+
+[dependencies.hyper]
+version ="0.6"
+
+
 [dependencies]
 nickel = "*"
 #myprogs = {git = "https://github.com/robisys/myprogs.git"}
 rustc-serialize = "0.3"
 lazy_static ="0.1"
 
-[dependencies.hyper]
-version ="0.6"
 
 
