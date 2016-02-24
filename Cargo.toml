@@ -2,17 +2,41 @@
 name = "myprogram"
 version = "0.1.1"
 authors = ["robisys"]
+repository = "https://github.com/robisys/myprog"
+readme = "README.md"
+keywords = ["nickel", "server", "web", "express"]
 
 [[bin]]
 name = "myprog"
 path =  "src/myprog.rs"
 
+[features]
+unstable = ["hyper/nightly", "compiletest_rs"]
+ssl = ["hyper/ssl"]
+timeouts = ["hyper/timeouts"]
+default = ["timeouts"]
 
 [dependencies.hyper]
-version ="0.6.6" 
+version = "=0.6"
+default-features = false
 
+[dependencies.compiletest_rs]
+version = "*"
+optional = true
 
 [dependencies]
+url = "0.2"
+time = "0.1"
+typemap = "0.3"
+plugin = "0.2"
+regex = "0.1"
+rustc-serialize = "0.3"
+log = "0.3"
+groupable = "0.2"
+mustache = "0.6"
+lazy_static = "0.1"
+modifier = "0.1"
+hyper = "0.6.6"
 nickel = "*"
 #myprogs = {git = "https://github.com/robisys/myprogs.git"}
 rustc-serialize = "0.3"
