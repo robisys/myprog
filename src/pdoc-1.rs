@@ -86,7 +86,7 @@
 //!
 //!    [GitHub Gist](https://gist.github.com/)
 //!
-//!          [github integration trivis-ci](https://github.com/integrations/travis-ci)
+//! [github integration travis-ci] (https://github.com/integrations/travis-ci)
 //!
 //!  [ Travis-ci](https://travis-ci.org)
 //!
@@ -159,11 +159,11 @@ impl Person {
     ///
     /// # Example
     ///
-    /// ```
+    /// 
     /// // You can have rust code between fences inside the comments
     /// // If you pass --test to Rustdoc, it will even test it for you!
     /// let person = Person::new("name");
-    /// ```
+    /// 
     pub fn new(name: &str) -> Person {
         Person {
             name: name.to_string(),
@@ -187,11 +187,11 @@ impl Rodel {
     ///
     /// # Example
     ///
-    /// ```
+    ///
     /// // You Test can have rust code between fences inside the comments
     /// // If you pass --test to Rustdoc, it will even test it for you!
-    /// let Rodel = Rodel::new("name1");
-    /// ```
+    /// let Rodel = Rodel::new("name1"); 
+    /// 
     pub fn new(name1: &str) -> Rodel {
         Rodel {
             name1: name1.to_string(),
