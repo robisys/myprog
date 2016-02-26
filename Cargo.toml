@@ -12,6 +12,11 @@ repository = "https://github.com/nickel-org/nickel.rs"
 readme = "README.md"
 keywords = ["nickel", "server", "web", "express"]
 
+
+[[bin]]
+name = "myprog"
+path =  "src/myprog.rs"
+
 [features]
 unstable = ["hyper/nightly", "compiletest_rs"]
 ssl = ["hyper/ssl"]
