@@ -1,16 +1,19 @@
 [package]
 
-name = "myprogbsp"
-version = "0.7.3"
-authors = [ "Christoph Burgdorf <christoph@thoughtram.io>",
-            "Kevin Butler <haqkrs@gmail.com>",
-            "Simon Persson <simon@flaskpost.org>" ]
-description = "An express.js inspired web framework"
-license = "MIT"
-
-repository = "https://github.com/nickel-org/nickel.rs"
+name = "myprogram"
+version = "0.1.1"
+authors = ["robisys"]
+repository = "https://github.com/robisys/myprog"
 readme = "README.md"
 keywords = ["nickel", "server", "web", "express"]
+
+#authors = [ "Christoph Burgdorf <christoph@thoughtram.io>",
+#            "Kevin Butler <haqkrs@gmail.com>",
+#            "Simon Persson <simon@flaskpost.org>" ]
+description = "An express.js inspired web framework"
+license = "MIT"
+#repository = "https://github.com/nickel-org/nickel.rs"
+
 
 
 [[bin]]
@@ -38,7 +41,7 @@ modifier = "0.1"
 nickel ="*"
 
 [dependencies.hyper]
-version = "=0.6"
+version = "0.6"
 default-features = false
 
 [dependencies.compiletest_rs]
