@@ -1,6 +1,6 @@
 [package]
 
-name = "myprog"
+name = "myprogbsp"
 version = "0.7.3"
 authors = [ "Christoph Burgdorf <christoph@thoughtram.io>",
             "Kevin Butler <haqkrs@gmail.com>",
@@ -45,82 +45,4 @@ default-features = false
 version = "*"
 optional = true
 
-[[example]]
 
-name = "logger_middleware"
-path = "examples/logger_middleware.rs"
-
-[[example]]
-
-name = "routing"
-path = "examples/routing.rs"
-
-[[example]]
-
-name = "template"
-path = "examples/template.rs"
-
-[[example]]
-
-name = "macro_example"
-path = "examples/macro_example.rs"
-
-[[example]]
-
-name = "hello_world"
-path = "examples/hello_world.rs"
-
-[[example]]
-
-name = "hello_world_macro"
-path = "examples/hello_world_macro.rs"
-
-[[example]]
-
-name = "json"
-path = "examples/json.rs"
-
-[[example]]
-
-name = "custom_error_handler"
-path = "examples/custom_error_handler.rs"
-
-[[example]]
-
-name = "moved_ownership"
-path = "examples/moved_ownership.rs"
-
-[[example]]
-
-name = "route_data"
-path = "examples/route_data.rs"
-
-[[example]]
-
-name = "static_files"
-path = "examples/static_files.rs"
-
-[[example]]
-
-name = "regex_route"
-path = "examples/regex_route.rs"
-
-[[example]]
-
-name = "query_string"
-path = "examples/query_string.rs"
-
-[[example]]
-
-name = "mount"
-path = "examples/mount.rs"
-
-[[example]]
-
-name = "chaining"
-path = "examples/chaining.rs"
-
-[[example]]
-
-name = "form_data"
-path = "examples/form_data/form_data.rs"
