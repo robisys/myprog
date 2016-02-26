@@ -11,14 +11,14 @@ name = "myprog"
 path =  "src/myprog.rs"
 
 [features]
-unstable = ["hyper/nightly", "compiletest_rs"]
-ssl = ["hyper/ssl"]
-timeouts = ["hyper/timeouts"]
-default = ["timeouts"]
+#unstable = ["hyper/nightly", "compiletest_rs"]
+#ssl = ["hyper/ssl"]
+#timeouts = ["hyper/timeouts"]
+#default = ["timeouts"]
 
 [dependencies.hyper]
-version = "=0.6"
-default-features = false
+version = "=0.6.6"
+#default-features = false
 
 [dependencies.compiletest_rs]
 version = "*"
@@ -36,11 +36,9 @@ groupable = "0.2"
 mustache = "0.6"
 lazy_static = "0.1"
 modifier = "0.1"
-hyper = "0.6.6"
 nickel = "*"
 #myprogs = {git = "https://github.com/robisys/myprogs.git"}
-rustc-serialize = "0.3"
-lazy_static ="0.1"
+
 
 
 
