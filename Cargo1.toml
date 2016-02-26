@@ -36,7 +36,7 @@ groupable = "0.2"
 mustache = "0.6"
 lazy_static = "0.1"
 modifier = "0.1"
-nickel = "*"
+nickel = ">=0.7.3"
 #myprogs = {git = "https://github.com/robisys/myprogs.git"}
 
 
