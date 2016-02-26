@@ -1,6 +1,6 @@
 [package]
 
-name = "nickel"
+name = "myprog"
 version = "0.7.3"
 authors = [ "Christoph Burgdorf <christoph@thoughtram.io>",
             "Kevin Butler <haqkrs@gmail.com>",
