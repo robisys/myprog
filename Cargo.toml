@@ -40,6 +40,10 @@ lazy_static = "0.1"
 modifier = "0.1"
 nickel ="0.7.3"
 
+[lib]
+name = "pdoc1"
+path = "src/pdoc-1.rs"
+
 [dependencies.hyper]
 version = "0.6"
 default-features = false
