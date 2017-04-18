@@ -1,5 +1,8 @@
 # myprog
 
+[![Build Status](https://secure.travis-ci.org/robiorg/myprog-1.svg?branch=master)](https://travis-ci.org/robiorg/myprog-1)
+first test with  github rust travis-ci
+
 [![Build Status](https://secure.travis-ci.org/robisys/myprog.svg?branch=master)](https://travis-ci.org/robisys/myprog)
 first test with  github rust travis-ci
 
